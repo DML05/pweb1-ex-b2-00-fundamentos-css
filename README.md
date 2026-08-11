@@ -36,3 +36,14 @@ O **HTML já está pronto**. Edite **apenas `css/style.css`**. Lembre da sintaxe
 
 Sem terminal (github.dev: tecla `.` → *Commit*). A correção roda na aba **Actions**. Refaça
 até **100/100**.
+
+## Ver a sua página no navegador
+
+A cada envio, a sua página também é **publicada** automaticamente (GitHub Pages). Para abrir:
+
+- Aba **Actions** → workflow **"Publicar a pagina (GitHub Pages)"** → clique no run → o link
+  aparece no bloco **`github-pages`** (ou em **Settings → Pages**).
+- O endereço fica no formato `https://SEU-USUARIO.github.io/NOME-DO-REPO/`.
+
+Assim você vê o resultado do seu CSS de verdade, não só a nota. (A primeira publicação leva
+1–2 minutos.)
