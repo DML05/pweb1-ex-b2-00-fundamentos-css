@@ -39,11 +39,18 @@ até **100/100**.
 
 ## Ver a sua página no navegador
 
-A cada envio, a sua página também é **publicada** automaticamente (GitHub Pages). Para abrir:
+Para ver o resultado do seu CSS de verdade (não só a nota), há **duas formas**:
 
-- Aba **Actions** → workflow **"Publicar a pagina (GitHub Pages)"** → clique no run → o link
-  aparece no bloco **`github-pages`** (ou em **Settings → Pages**).
-- O endereço fica no formato `https://SEU-USUARIO.github.io/NOME-DO-REPO/`.
+**1) Preview instantâneo (sem configurar nada).** Abra este endereço, trocando `SEU-USUARIO` e
+`NOME-DO-REPO` pelos seus:
 
-Assim você vê o resultado do seu CSS de verdade, não só a nota. (A primeira publicação leva
-1–2 minutos.)
+```
+https://raw.githack.com/SEU-USUARIO/NOME-DO-REPO/master/index.html
+```
+
+Ele mostra a página com o seu CSS e **atualiza a cada envio**. É o jeito mais rápido enquanto
+você trabalha.
+
+**2) GitHub Pages (endereço `github.io`, configuração única).** No seu repositório:
+**Settings → Pages → Source: _Deploy from a branch_ → Branch: `master` / `/(root)` → Save**. Em
+1–2 minutos a página fica em `https://SEU-USUARIO.github.io/NOME-DO-REPO/`.
